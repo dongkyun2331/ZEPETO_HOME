@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Desktop-1 {
+  /* Desktop - 1 */
+
+  position: relative;
+  width: 1082px;
+  height: 4096px;
+
+  background: #ffffff;
+}
+
+.F

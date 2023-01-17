@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .Desktop-1 {
   /* Desktop - 1 */
 
@@ -14,4 +18,202 @@
   background: #ffffff;
 }
 
-.F
+.Frame1 {
+  position: absolute;
+  width: 1082px;
+  height: 54px;
+  left: 0px;
+  top: 0px;
+
+  background: #000008;
+}
+
+.Frame1 .ZEPETO {
+  position: absolute;
+  width: 56px;
+  height: 17px;
+  left: 26px;
+  top: 23px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+
+.Frame1 .Rectangle1 {
+  /* Rectangle 1 */
+
+  position: absolute;
+  width: 43px;
+  height: 14px;
+  left: 86px;
+  top: 24px;
+
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.Frame1 .STUDIO {
+  position: absolute;
+  width: 35px;
+  height: 11px;
+  left: 89px;
+  top: 25px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 9px;
+  line-height: 11px;
+  /* identical to box height */
+
+  color: #000000;
+}
+
+.Frame1 .content {
+  position: absolute;
+  height: 15px;
+  left: 171px;
+  top: 24px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+  color: #727276;
+}
+
+.Frame1 .content:hover {
+  color: #fff;
+}
+
+.Frame1 .Vector {
+  /* Vector */
+
+  position: absolute;
+  left: 19.32%;
+  right: 80.13%;
+  top: 55.56%;
+  bottom: 38.89%;
+  width: 6px;
+  height: 3px;
+}
+
+.Frame1 .creator_program {
+  /* 크리에이터 프로그램 */
+
+  position: absolute;
+  height: 15px;
+  left: 237px;
+  top: 23px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #727276;
+}
+
+.Frame1 .creator_program:hover {
+  color: #fff;
+}
+
+.Frame1 .business {
+  /* 비즈니스 */
+
+  position: absolute;
+  height: 15px;
+  left: 366px;
+  top: 23px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #727276;
+}
+
+.Frame1 .business:hover {
+  color: #fff;
+}
+
+.Frame1 .guide {
+  /* 가이드 */
+
+  position: absolute;
+  height: 15px;
+  left: 433px;
+  top: 23px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #727276;
+}
+
+.Frame1 .guide:hover {
+  color: #fff;
+}
+
+.Frame1 .Vector_2 {
+  /* Vector */
+
+  position: absolute;
+  left: 43.53%;
+  right: 55.91%;
+  top: 55.56%;
+  bottom: 38.89%;
+  width: 6px;
+  height: 3px;
+}
+
+.Frame1 .new {
+  /* new */
+
+  position: absolute;
+  width: 19px;
+  height: 14px;
+  left: 440px;
+  top: 10px;
+  width: 19px;
+  height: 14px;
+}
+
+.Frame1 .support {
+  /* 지원 */
+
+  position: absolute;
+  height: 15px;
+  left: 500px;
+  top: 24px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: #727276;
+}
+
+.Frame1 .support:hover {
+  color: #fff;
+}

@@ -217,3 +217,18 @@ a {
 .Frame1 .support:hover {
   color: #fff;
 }
+
+.Frame1 .Rectangle3 {
+  /* Rectangle 3 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 83px;
+  height: 27px;
+  left: 942px;
+  top: 18px;
+
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}

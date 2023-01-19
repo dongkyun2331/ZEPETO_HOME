@@ -819,14 +819,6 @@ ul {
   background: #ffffff;
 }
 
-.background {
-  width: 1046px;
-  height: 276px;
-  position: relative;
-  overflow: hidden;
-  background-color: red;
-}
-
 .bul {
   position: relative;
   width: auto;

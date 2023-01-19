@@ -10,19 +10,18 @@ a {
 
 .Desktop-1 {
   /* Desktop - 1 */
-
-  width: 1082px;
-  height: 4096px;
-
+  position: relative;
   background: #ffffff;
-  margin: 0 auto;
 }
 
 .Frame1 {
-  position: relative;
-  width: 1082px;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
   height: 54px;
   background: #000008;
+  z-index: 1;
 }
 
 .Frame1 .ZEPETO {
@@ -37,7 +36,6 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
-  /* identical to box height */
 
   color: #ffffff;
 }
@@ -67,7 +65,6 @@ a {
   font-weight: 600;
   font-size: 9px;
   line-height: 11px;
-  /* identical to box height */
 
   color: #000000;
 }
@@ -83,7 +80,6 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
   color: #727276;
 }
 
@@ -95,10 +91,8 @@ a {
   /* Vector */
 
   position: absolute;
-  left: 19.32%;
-  right: 80.13%;
-  top: 55.56%;
-  bottom: 38.89%;
+  left: 209px;
+  top: 30px;
   width: 6px;
   height: 3px;
 }
@@ -116,7 +110,6 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
 
   color: #727276;
 }
@@ -138,7 +131,6 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
 
   color: #727276;
 }
@@ -160,7 +152,6 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
 
   color: #727276;
 }
@@ -173,10 +164,8 @@ a {
   /* Vector */
 
   position: absolute;
-  left: 43.53%;
-  right: 55.91%;
-  top: 55.56%;
-  bottom: 38.89%;
+  left: 471px;
+  top: 30px;
   width: 6px;
   height: 3px;
 }
@@ -206,7 +195,6 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
 
   color: #727276;
 }
@@ -223,31 +211,23 @@ a {
   position: absolute;
   width: 83px;
   height: 27px;
-  left: 942px;
-  top: 18px;
+  right: 6%;
+  top: 32%;
 
   border: 1px solid #ffffff;
   border-radius: 4px;
-}
-
-.Frame1 .content_management {
   /* 콘텐츠 관리 */
-
-  position: absolute;
-  height: 13px;
-  left: 957px;
-  top: 23px;
-
   font-family: 'Inter';
   font-style: normal;
   font-weight: 500;
   font-size: 11px;
   line-height: 13px;
-
+  text-align: center;
+  line-height: 27px;
   color: #ffffff;
 }
 
-.Frame1 .Vector_2 {
+.Frame1 .Vector_3 {
   /* Vector */
 
   position: absolute;
@@ -263,23 +243,20 @@ a {
 .Frame2 {
   /* Frame2 */
 
-  width: 1082px;
-  height: 548px;
   position: relative;
 }
 
 .Frame2 .gif {
-  width: 1082px;
-  height: 548px;
+  width: 100%;
 }
 
 .Frame2_title {
   /* 상상하는 모든 것. 제페토 스튜디오에서. */
 
   position: absolute;
-  height: 112px;
-  left: 338px;
-  top: 185px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 
   font-family: 'Inter';
   font-style: normal;
@@ -297,8 +274,9 @@ a {
   position: absolute;
   width: 106px;
   height: 46px;
-  left: 492px;
-  top: 318px;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
 
   background: #ffffff;
   border-radius: 23px;
@@ -308,9 +286,9 @@ a {
   /* 시작하기 */
 
   position: absolute;
-  height: 19px;
-  left: 515px;
-  top: 332px;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
 
   font-family: 'Inter';
   font-style: normal;
@@ -327,7 +305,7 @@ a {
 
   width: 1082px;
   height: 809px;
-
+  margin: 0 auto;
   background: #ffffff;
   position: relative;
 }
@@ -393,7 +371,6 @@ a {
   font-weight: 600;
   font-size: 17px;
   line-height: 21px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.01em;
@@ -414,7 +391,6 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -435,7 +411,6 @@ a {
   font-weight: 600;
   font-size: 17px;
   line-height: 21px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.01em;
@@ -456,7 +431,6 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -477,7 +451,6 @@ a {
   font-weight: 600;
   font-size: 17px;
   line-height: 21px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.01em;
@@ -498,7 +471,6 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -507,12 +479,16 @@ a {
 }
 
 .Frame4 {
+  height: 599px;
+  background: #f8f8fa;
+}
+
+.Frame4_box {
   /* Frame 4 */
   position: relative;
   width: 1082px;
   height: 599px;
-
-  background: #f8f8fa;
+  margin: 0 auto;
 }
 
 .Frame4_title {
@@ -638,7 +614,6 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -731,7 +706,6 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -824,7 +798,6 @@ a {
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.03em;
@@ -838,7 +811,7 @@ a {
   position: relative;
   width: 1082px;
   height: 656px;
-
+  margin: 0 auto;
   background: #ffffff;
 }
 
@@ -995,12 +968,16 @@ a {
 
 .Frame6 {
   /* Frame 6 */
+  width: 100%;
+  height: 631px;
+  background: #f8f8fa;
+}
 
+.Frame6_box {
   position: relative;
   width: 1082px;
   height: 631px;
-
-  background: #f8f8fa;
+  margin: 0 auto;
 }
 
 .Frame6_title {
@@ -1064,7 +1041,7 @@ a {
   position: relative;
   width: 1082px;
   height: 577px;
-
+  margin: 0 auto;
   background: #ffffff;
 }
 
@@ -1375,13 +1352,14 @@ a {
   position: relative;
   width: 1082px;
   height: 222px;
+  margin: 0 auto;
 }
 
 .Frame8_line1 {
   /* Line 1 */
 
   position: absolute;
-  width: 1082px;
+  width: 100%;
   height: 0px;
   left: 0px;
   top: 1px;
@@ -1402,7 +1380,6 @@ a {
   font-weight: 600;
   font-size: 9px;
   line-height: 11px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.02em;
@@ -1423,7 +1400,6 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   text-align: center;
   letter-spacing: 0.01em;
@@ -1444,7 +1420,6 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   letter-spacing: 0.01em;
 
@@ -1464,7 +1439,6 @@ a {
   font-weight: 600;
   font-size: 9px;
   line-height: 11px;
-  /* identical to box height */
 
   letter-spacing: 0.02em;
 
@@ -1484,7 +1458,6 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   letter-spacing: 0.01em;
 
@@ -1504,7 +1477,6 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   letter-spacing: 0.01em;
 
@@ -1524,7 +1496,6 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   letter-spacing: 0.01em;
 
@@ -1544,7 +1515,6 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   letter-spacing: 0.01em;
 
@@ -1564,7 +1534,6 @@ a {
   font-weight: 600;
   font-size: 9px;
   line-height: 11px;
-  /* identical to box height */
 
   letter-spacing: 0.02em;
 
@@ -1584,7 +1553,6 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   letter-spacing: 0.01em;
 
@@ -1604,7 +1572,6 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   letter-spacing: 0.01em;
 
@@ -1624,7 +1591,6 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   letter-spacing: 0.01em;
 
@@ -1644,7 +1610,6 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   letter-spacing: 0.01em;
 
@@ -1664,7 +1629,6 @@ a {
   font-weight: 600;
   font-size: 9px;
   line-height: 11px;
-  /* identical to box height */
 
   letter-spacing: 0.02em;
 
@@ -1684,7 +1648,6 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   letter-spacing: 0.01em;
 
@@ -1704,7 +1667,6 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   letter-spacing: 0.01em;
 

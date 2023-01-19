@@ -1774,7 +1774,6 @@ a {
   /* App Store */
 
   position: absolute;
-  height: 10px;
   left: 940px;
   top: 39px;
 
@@ -1783,12 +1782,11 @@ a {
   font-weight: 600;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   color: #000000;
 }
 
-.Frame8_line2 {
+.Frame8_l {
   position: absolute;
   width: 1082px;
   height: 0px;
@@ -1810,12 +1808,11 @@ a {
   font-weight: 500;
   font-size: 8px;
   line-height: 10px;
-  /* identical to box height */
 
   color: #b2b4b5;
 }
 
-.Frame8_line3 {
+.Frame8_l1 {
   position: absolute;
   width: 1px;
   height: 6px;
@@ -1835,14 +1832,139 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 9px;
+  line-height: 11px;
   color: #b2b4b5;
 }
 
-.Frame8_line4 {
+.Frame8_l2 {
   position: absolute;
   width: 1px;
   height: 6px;
   left: 310px;
   top: 171px;
   background-color: #b2b4b5;
+}
+
+.Frame8_c2 {
+  /* 개인정보처리방침 */
+
+  position: absolute;
+  left: 317px;
+  top: 169px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+
+  color: #b2b4b5;
+}
+
+.Frame8_l3 {
+  position: absolute;
+  width: 1px;
+  height: 6px;
+  left: 403px;
+  top: 171px;
+  background-color: #b2b4b5;
+}
+
+.Frame8_c3 {
+  /* 문의하기 */
+
+  position: absolute;
+  left: 410px;
+  top: 169px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+
+  color: #b2b4b5;
+}
+
+.Frame8_l4 {
+  position: absolute;
+  width: 1px;
+  height: 6px;
+  left: 456px;
+  top: 171px;
+
+  background-color: #b2b4b5;
+}
+
+.Frame8_c4 {
+  /* Credits */
+
+  position: absolute;
+  height: 11px;
+  left: 465px;
+  top: 169px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+
+  color: #b2b4b5;
+}
+
+.Frame8_lan {
+  /* 한국어 ▼ */
+
+  position: absolute;
+  left: 860px;
+  top: 170px;
+
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 11px;
+
+  color: #b2b4b5;
+}
+
+.Frame8_insta {
+  position: absolute;
+  left: 84.84%;
+  right: 14.14%;
+  top: 76.58%;
+  bottom: 18.47%;
+  width: 11px;
+  height: 11px;
+}
+
+.Frame8_twitter {
+  position: absolute;
+  left: 86.88%;
+  right: 11.92%;
+  top: 76.58%;
+  bottom: 18.47%;
+  width: 13px;
+  height: 11px;
+}
+
+.Frame8_youtube {
+  position: absolute;
+  left: 88.72%;
+  right: 9.89%;
+  top: 76.58%;
+  bottom: 18.47%;
+  width: 15px;
+  height: 11px;
+}
+
+.Frame8_facebook {
+  position: absolute;
+  left: 91.04%;
+  right: 8.41%;
+  top: 76.58%;
+  bottom: 18.47%;
+  width: 6px;
+  height: 11px;
 }

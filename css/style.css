@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 .Desktop-1 {
   /* Desktop - 1 */
   position: relative;
@@ -813,6 +817,25 @@ a {
   height: 656px;
   margin: 0 auto;
   background: #ffffff;
+}
+
+.background {
+  width: 1046px;
+  height: 276px;
+  position: relative;
+  overflow: hidden;
+  background-color: red;
+}
+
+.bul {
+  position: relative;
+  width: auto;
+  height: 276px;
+}
+
+.bli {
+  width: 220px;
+  height: 276px;
 }
 
 .Frame5_title {

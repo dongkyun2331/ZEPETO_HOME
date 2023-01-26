@@ -215,6 +215,22 @@ ul {
   color: #36363c;
 }
 
+.Frame2_support {
+  position: absolute;
+  top: 269px;
+  left: 492px;
+  width: 98px;
+  height: 38px;
+  border-radius: 20px;
+  background-color: #5c46ff;
+  /* 지원하기 */
+  text-align: center;
+  line-height: 38px;
+  color: #fefdff;
+  font-weight: 400;
+  font-size: 15px;
+}
+
 .Frame8 {
   /* Frame 8 */
   position: relative;

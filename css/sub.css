@@ -188,6 +188,33 @@ ul {
   cursor: pointer;
 }
 
+.Frame2 {
+  position: relative;
+  width: 1082px;
+  height: 1254px;
+  margin: 0 auto;
+}
+
+.Frame2_h1 {
+  position: absolute;
+  top: 144px;
+  left: 275px;
+  font-weight: 600;
+  font-size: 46px;
+  color: #292930;
+}
+
+.Frame2_p {
+  position: absolute;
+  top: 210px;
+  left: 365px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19.36px;
+  text-align: center;
+  color: #36363c;
+}
+
 .Frame8 {
   /* Frame 8 */
   position: relative;

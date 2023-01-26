@@ -36,38 +36,28 @@ ul {
   height: 17px;
   left: 26px;
   top: 23px;
-
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
-
   color: #ffffff;
 }
 
 .Frame1 .Rectangle1 {
   /* Rectangle 1 */
-
   position: absolute;
   width: 43px;
   height: 14px;
   left: 86px;
   top: 24px;
-
   background: #ffffff;
   border-radius: 4px;
 }
 
 .Frame1 .STUDIO {
   position: absolute;
-  width: 35px;
-  height: 11px;
   left: 89px;
   top: 25px;
-
   font-weight: 600;
   font-size: 9px;
-  line-height: 11px;
-
   color: #000000;
 }
 
@@ -76,10 +66,8 @@ ul {
   height: 15px;
   left: 171px;
   top: 24px;
-
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
   color: #727276;
 }
 
@@ -89,7 +77,6 @@ ul {
 
 .Frame1 .Vector {
   /* Vector */
-
   position: absolute;
   left: 209px;
   top: 30px;
@@ -99,16 +86,11 @@ ul {
 
 .Frame1 .creator_program {
   /* 크리에이터 프로그램 */
-
   position: absolute;
-  height: 15px;
   left: 237px;
   top: 23px;
-
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
   color: #727276;
 }
 
@@ -118,16 +100,11 @@ ul {
 
 .Frame1 .business {
   /* 비즈니스 */
-
   position: absolute;
-  height: 15px;
   left: 366px;
   top: 23px;
-
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
   color: #727276;
 }
 
@@ -137,16 +114,11 @@ ul {
 
 .Frame1 .guide {
   /* 가이드 */
-
   position: absolute;
-  height: 15px;
   left: 433px;
   top: 23px;
-
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
   color: #727276;
 }
 
@@ -156,7 +128,6 @@ ul {
 
 .Frame1 .Vector_2 {
   /* Vector */
-
   position: absolute;
   left: 471px;
   top: 30px;
@@ -166,28 +137,20 @@ ul {
 
 .Frame1 .new {
   /* new */
-
   position: absolute;
   width: 19px;
   height: 14px;
   left: 440px;
   top: 10px;
-  width: 19px;
-  height: 14px;
 }
 
 .Frame1 .support {
   /* 지원 */
-
   position: absolute;
-  height: 15px;
   left: 500px;
   top: 24px;
-
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
   color: #727276;
 }
 
@@ -197,15 +160,11 @@ ul {
 
 .Frame1 .Rectangle3 {
   /* Rectangle 3 */
-
-  box-sizing: border-box;
-
   position: absolute;
   width: 83px;
   height: 27px;
   right: 6%;
   top: 32%;
-
   border: 1px solid #ffffff;
   border-radius: 4px;
   /* 콘텐츠 관리 */
@@ -219,7 +178,6 @@ ul {
 
 .Frame1 .Vector_3 {
   /* Vector */
-
   position: absolute;
   left: 96.12%;
   right: 2.4%;
@@ -232,7 +190,6 @@ ul {
 
 .Frame8 {
   /* Frame 8 */
-
   position: relative;
   width: 100%;
   height: 222px;
@@ -240,9 +197,29 @@ ul {
 }
 
 .Frame8_line_top {
-  position: absolute;
   width: 100%;
   border: 1px solid #f9f9fb;
+}
+
+.Frame8_ul {
+  display: flex;
+  position: absolute;
+  top: 30px;
+  left: 86px;
+}
+
+.Frame8_ul li {
+  width: 99px;
+  font-size: 8px;
+  margin-bottom: 8px;
+}
+
+.Frame8_ul_title {
+  font-weight: 600;
+  color: #000;
+  font-size: 9px;
+  display: block;
+  margin-bottom: 7px;
 }
 
 .Frame8_r1 {
@@ -251,7 +228,6 @@ ul {
   height: 27px;
   left: 1117px;
   top: 30px;
-
   background: #f5f5f6;
   border-radius: 6px;
 }
@@ -266,16 +242,12 @@ ul {
 
 .Frame8_r1p {
   /* Google Play */
-
   position: absolute;
-  height: 20px;
   left: 1145px;
   top: 34px;
-
   font-weight: 600;
   font-size: 8px;
   line-height: 10px;
-
   color: #000000;
 }
 
@@ -285,7 +257,6 @@ ul {
   height: 27px;
   left: 1209px;
   top: 30px;
-
   background: #f5f5f6;
   border-radius: 6px;
 }
@@ -300,39 +271,29 @@ ul {
 
 .Frame8_r2p {
   /* App Store */
-
   position: absolute;
   left: 1240px;
   top: 39px;
-
   font-weight: 600;
   font-size: 8px;
   line-height: 10px;
-
   color: #000000;
 }
 
-.Frame8_l {
+.Frame8_line_bottom {
   position: absolute;
   width: 100%;
-  height: 0px;
-  left: 0px;
   top: 150px;
-
   border: 1px solid #f9f9fb;
 }
 
 .Frame8_corp {
   /* © NAVER Z Corp. All rights reserved. */
-
   position: absolute;
   left: 87px;
   top: 169px;
-
   font-weight: 500;
   font-size: 8px;
-  line-height: 10px;
-
   color: #b2b4b5;
 }
 
@@ -347,14 +308,11 @@ ul {
 
 .Frame8_c1 {
   /* 이용약관 */
-
   position: absolute;
   left: 265px;
   top: 169px;
-
   font-weight: 500;
   font-size: 9px;
-  line-height: 11px;
   color: #b2b4b5;
 }
 
@@ -369,15 +327,11 @@ ul {
 
 .Frame8_c2 {
   /* 개인정보처리방침 */
-
   position: absolute;
   left: 317px;
   top: 169px;
-
   font-weight: 500;
   font-size: 9px;
-  line-height: 11px;
-
   color: #b2b4b5;
 }
 
@@ -392,15 +346,11 @@ ul {
 
 .Frame8_c3 {
   /* 문의하기 */
-
   position: absolute;
   left: 410px;
   top: 169px;
-
   font-weight: 500;
   font-size: 9px;
-  line-height: 11px;
-
   color: #b2b4b5;
 }
 
@@ -410,36 +360,26 @@ ul {
   height: 6px;
   left: 456px;
   top: 171px;
-
   background-color: #b2b4b5;
 }
 
 .Frame8_c4 {
   /* Credits */
-
   position: absolute;
-  height: 11px;
   left: 465px;
   top: 169px;
-
   font-weight: 500;
   font-size: 9px;
-  line-height: 11px;
-
   color: #b2b4b5;
 }
 
 .Frame8_lan {
   /* 한국어 ▼ */
-
   position: absolute;
   left: 1160px;
   top: 170px;
-
   font-weight: 500;
   font-size: 9px;
-  line-height: 11px;
-
   color: #b2b4b5;
 }
 

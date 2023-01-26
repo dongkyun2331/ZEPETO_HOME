@@ -38,7 +38,6 @@ ul {
   top: 23px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
   color: #ffffff;
 }
 
@@ -55,13 +54,10 @@ ul {
 
 .Frame1 .STUDIO {
   position: absolute;
-  width: 35px;
-  height: 11px;
   left: 89px;
   top: 25px;
   font-weight: 600;
   font-size: 9px;
-  line-height: 11px;
   color: #000000;
 }
 
@@ -72,7 +68,6 @@ ul {
   top: 24px;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
   color: #727276;
 }
 
@@ -92,12 +87,10 @@ ul {
 .Frame1 .creator_program {
   /* 크리에이터 프로그램 */
   position: absolute;
-  height: 15px;
   left: 237px;
   top: 23px;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
   color: #727276;
 }
 
@@ -107,18 +100,11 @@ ul {
 
 .Frame1 .business {
   /* 비즈니스 */
-
   position: absolute;
-  height: 15px;
   left: 366px;
   top: 23px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
   color: #727276;
 }
 
@@ -128,18 +114,11 @@ ul {
 
 .Frame1 .guide {
   /* 가이드 */
-
   position: absolute;
-  height: 15px;
   left: 433px;
   top: 23px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
   color: #727276;
 }
 
@@ -149,7 +128,6 @@ ul {
 
 .Frame1 .Vector_2 {
   /* Vector */
-
   position: absolute;
   left: 471px;
   top: 30px;
@@ -159,30 +137,20 @@ ul {
 
 .Frame1 .new {
   /* new */
-
   position: absolute;
   width: 19px;
   height: 14px;
   left: 440px;
   top: 10px;
-  width: 19px;
-  height: 14px;
 }
 
 .Frame1 .support {
   /* 지원 */
-
   position: absolute;
-  height: 15px;
   left: 500px;
   top: 24px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
   color: #727276;
 }
 
@@ -192,20 +160,14 @@ ul {
 
 .Frame1 .Rectangle3 {
   /* Rectangle 3 */
-
-  box-sizing: border-box;
-
   position: absolute;
   width: 83px;
   height: 27px;
   right: 6%;
   top: 32%;
-
   border: 1px solid #ffffff;
   border-radius: 4px;
   /* 콘텐츠 관리 */
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 11px;
   line-height: 13px;
@@ -216,7 +178,6 @@ ul {
 
 .Frame1 .Vector_3 {
   /* Vector */
-
   position: absolute;
   left: 96.12%;
   right: 2.4%;
@@ -229,7 +190,6 @@ ul {
 
 .Frame2 {
   /* Frame2 */
-
   position: relative;
 }
 
@@ -239,57 +199,42 @@ ul {
 
 .Frame2_title {
   /* 상상하는 모든 것. 제페토 스튜디오에서. */
-
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 46px;
-  line-height: 56px;
   text-align: center;
-
   color: #ffffff;
 }
 
 .Frame2 .Rectangle4 {
   /* Rectangle 4 */
-
   position: absolute;
   width: 106px;
   height: 46px;
   left: 50%;
   top: 60%;
   transform: translate(-50%, -50%);
-
   background: #ffffff;
   border-radius: 23px;
 }
 
 .Frame2 .start {
   /* 시작하기 */
-
   position: absolute;
   left: 50%;
   top: 60%;
   transform: translate(-50%, -50%);
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 19px;
   text-align: center;
-
   color: #7d6aff;
 }
 
 .Frame3 {
   /* Frame 3 */
-
   width: 1082px;
   height: 809px;
   margin: 0 auto;
@@ -299,45 +244,30 @@ ul {
 
 .Frame3_title {
   /* 크리에이터를 위한 제페토. */
-
   position: absolute;
-  height: 48px;
   left: 312px;
   top: 81px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 40px;
-  line-height: 48px;
-  text-align: center;
   letter-spacing: 0.03em;
-
   color: #000000;
 }
 
 .Frame3_p {
   /* 제페토 크리에이터는 제페토 세상의 모든 것을 직접 만들 수 있습니다. 전 세계 3억 유저에게 당신의 아이디어를 보여주세요! */
-
   position: absolute;
-  height: 38px;
   left: 308px;
   top: 142px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.01em;
-
   color: #6b6b6f;
 }
 
 .Frame3_img {
   /* image 2 */
-
   position: absolute;
   width: 800px;
   height: 405.47px;
@@ -347,121 +277,69 @@ ul {
 
 .Frame3_t1 {
   /* 6800만 */
-
   position: absolute;
-  height: 21px;
   left: 311px;
   top: 683px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 17px;
-  line-height: 21px;
-
   text-align: center;
   letter-spacing: 0.01em;
-
   color: #000000;
 }
 
 .Frame3_p1 {
   /* 스튜디오 아이템 판매량 */
-
   position: absolute;
   height: 15px;
   left: 282px;
   top: 713px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
-  text-align: center;
   letter-spacing: 0.03em;
-
   color: #646469;
 }
 
 .Frame3_t2 {
   /* 230만 */
-
   position: absolute;
-  height: 21px;
   left: 524px;
   top: 683px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 17px;
-  line-height: 21px;
-
-  text-align: center;
   letter-spacing: 0.01em;
-
   color: #000000;
 }
 
 .Frame3_p2 {
   /* 스튜디오 크리에이터 수 */
-
   position: absolute;
-  height: 15px;
   left: 489px;
   top: 713px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
-  text-align: center;
   letter-spacing: 0.03em;
-
   color: #646469;
 }
 
 .Frame3_t3 {
   /* 3억 */
-
   position: absolute;
-  height: 21px;
   left: 742px;
   top: 683px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 17px;
-  line-height: 21px;
-
-  text-align: center;
   letter-spacing: 0.01em;
-
   color: #000000;
 }
 
 .Frame3_p3 {
   /* 제페토 가입자 수 */
-
   position: absolute;
-  height: 15px;
   left: 713px;
   top: 713px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
-  text-align: center;
   letter-spacing: 0.03em;
-
   color: #646469;
 }
 
@@ -480,58 +358,42 @@ ul {
 
 .Frame4_title {
   /* 제페토 세상이 내 손안에. */
-
   position: absolute;
   height: 48px;
   left: 331px;
   top: 84px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 40px;
-  line-height: 48px;
-  text-align: center;
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 
 .Frame4_p {
   /* 아이템, 월드, 라이브까지. 제페토는 크리에이터가 아이디어를 펼칠 수 있는 최고의 플랫폼입니다. */
-
   position: absolute;
-  height: 38px;
   left: 307px;
   top: 144px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.01em;
-
   color: #55555a;
 }
 
 .Frame4_r1 {
   /* r1 */
-
   position: absolute;
   width: 216px;
   height: 282px;
   left: 192px;
   top: 236px;
-
   background: #ffffff;
   border-radius: 10px;
 }
 
 .Frame4_icon1 {
   /* icon1 */
-
   position: absolute;
   width: 60px;
   height: 60px;
@@ -541,39 +403,25 @@ ul {
 
 .Frame4_t1 {
   /* 아이템 */
-
   position: absolute;
-  height: 24px;
   left: 272px;
   top: 349px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
-  text-align: center;
   letter-spacing: 0.01em;
-
   color: #000000;
 }
 
 .Frame4_p1 {
   /* 패션 아이템을 만들고 수익을 창출하세요. */
-
   position: absolute;
-  height: 31px;
   left: 245px;
   top: 381px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #646469;
 }
 
@@ -583,47 +431,34 @@ ul {
   height: 33px;
   left: 232px;
   top: 463px;
-
   background: #5c46ff;
   border-radius: 16.5px;
 }
 
 .Frame4_rp1 {
   /* 더 알아보기 */
-
   position: absolute;
-  height: 15px;
   left: 269px;
   top: 472px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
-  text-align: center;
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 
 .Frame4_r2 {
   /* r2 */
-
   position: absolute;
   width: 216px;
   height: 282px;
   left: 433px;
   top: 236px;
-
   background: #ffffff;
   border-radius: 10px;
 }
 
 .Frame4_icon2 {
   /* icon2 */
-
   position: absolute;
   width: 60px;
   height: 60px;
@@ -633,39 +468,25 @@ ul {
 
 .Frame4_t2 {
   /* 월드 */
-
   position: absolute;
-  height: 24px;
   left: 523px;
   top: 349px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
-  text-align: center;
   letter-spacing: 0.01em;
-
   color: #000000;
 }
 
 .Frame4_p2 {
   /* 제페토 세상에 내 아이디어가 담긴 월드를 만드세요. */
-
   position: absolute;
-  height: 47px;
   left: 492px;
   top: 381px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #646469;
 }
 
@@ -675,47 +496,34 @@ ul {
   height: 33px;
   left: 473px;
   top: 463px;
-
   background: #5c46ff;
   border-radius: 16.5px;
 }
 
 .Frame4_rp2 {
   /* 더 알아보기 */
-
   position: absolute;
-  height: 15px;
   left: 510px;
   top: 472px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
-  text-align: center;
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 
 .Frame4_r3 {
   /* r3 */
-
   position: absolute;
   width: 216px;
   height: 282px;
   left: 674px;
   top: 236px;
-
   background: #ffffff;
   border-radius: 10px;
 }
 
 .Frame4_icon3 {
   /* icon3 */
-
   position: absolute;
   width: 60px;
   height: 60px;
@@ -725,39 +533,26 @@ ul {
 
 .Frame4_t3 {
   /* 라이브 */
-
   position: absolute;
   height: 24px;
   left: 754px;
   top: 349px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  line-height: 24px;
-  text-align: center;
   letter-spacing: 0.01em;
-
   color: #000000;
 }
 
 .Frame4_p3 {
   /* 전 세계 유저들과 실시간 방송하세요. */
-
   position: absolute;
-  height: 31px;
   left: 733px;
   top: 381px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: #646469;
 }
 
@@ -767,34 +562,23 @@ ul {
   height: 33px;
   left: 714px;
   top: 463px;
-
   background: #5c46ff;
   border-radius: 16.5px;
 }
 
 .Frame4_rp3 {
   /* 더 알아보기 */
-
   position: absolute;
-  height: 15px;
   left: 751px;
   top: 472px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
-  line-height: 15px;
-
-  text-align: center;
   letter-spacing: 0.03em;
-
   color: #ffffff;
 }
 
 .Frame5 {
   /* Frame 5 */
-
   position: relative;
   width: 1082px;
   height: 656px;
@@ -815,52 +599,38 @@ ul {
 
 .Frame5_title {
   /* 3억 명을 사로잡을 크리에이터가 될 기회. */
-
   position: absolute;
-  height: 96px;
   left: 349px;
   top: 83px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 40px;
   line-height: 48px;
   text-align: center;
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 
 .Frame5_p {
   /* 230만이 넘는 제페토 크리에이터가 전 세계 3억 유저에게 아이디어를 선보이고 있습니다. 제페토의 대표 크리에이터를 바로 만나보세요. */
-
   position: absolute;
-  height: 38px;
   left: 240px;
   top: 190px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.01em;
-
   color: #55555a;
 }
 
 .Frame5_img1 {
   /* img1 */
-
   position: absolute;
   width: 170px;
   height: 170px;
   border-radius: 170px;
   left: 12px;
   top: 309px;
-
   background: url(../images/z5.png);
   background-size: cover;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);
@@ -868,14 +638,12 @@ ul {
 
 .Frame5_img2 {
   /* img2 */
-
   position: absolute;
   width: 170px;
   height: 170px;
   border-radius: 170px;
   left: 232px;
   top: 309px;
-
   background: url(../images/z4.png);
   background-size: cover;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);
@@ -883,14 +651,12 @@ ul {
 
 .Frame5_img3 {
   /* img3 */
-
   position: absolute;
   width: 220px;
   height: 220px;
   border-radius: 220px;
   left: 425px;
   top: 284px;
-
   background: url(../images/z3.png);
   background-size: cover;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);
@@ -898,14 +664,12 @@ ul {
 
 .Frame5_img4 {
   /* img4 */
-
   position: absolute;
   width: 170px;
   height: 170px;
   border-radius: 170px;
   left: 668px;
   top: 309px;
-
   background: url(../images/z2.png);
   background-size: cover;
   box-shadow: 0px 20px 60px 3px rgba(0, 0, 0, 0.1);
@@ -913,14 +677,12 @@ ul {
 
 .Frame5_img5 {
   /* img5 */
-
   position: absolute;
   width: 170px;
   height: 170px;
   border-radius: 170px;
   left: 888px;
   top: 309px;
-
   background: url(../images/z1.png);
   background-size: cover;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);
@@ -928,39 +690,23 @@ ul {
 
 .Frame5_t {
   /* 코코 */
-
   position: absolute;
-  height: 19px;
   left: 520px;
   top: 524px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 
 .Frame5_tp {
   /* @coco */
-
   position: absolute;
-  height: 13px;
   left: 516px;
   top: 547px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 11px;
-  line-height: 13px;
-  text-align: center;
   letter-spacing: 0.01em;
-
   color: #55555a;
 }
 
@@ -980,50 +726,25 @@ ul {
 
 .Frame6_title {
   /* 크리에이터의 수익 창출은 기본. */
-
   position: absolute;
-  height: 48px;
   left: 274px;
   top: 84px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 40px;
-  line-height: 48px;
-  text-align: center;
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 
 .Frame6_p {
   /* 다양한 콘텐츠를 만들고 수익도 올려보세요. */
-
   position: absolute;
-  height: 19px;
   left: 396px;
   top: 144px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
   letter-spacing: 0.01em;
-
   color: #55555a;
-}
-
-.box {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 798px;
-  height: 440px;
-  overflow: hidden;
+  z-index: 1;
 }
 
 .Frame6_video {
@@ -1035,7 +756,6 @@ ul {
 
 .Frame7 {
   /* Frame 7 */
-
   position: relative;
   width: 1082px;
   height: 577px;
@@ -1045,39 +765,25 @@ ul {
 
 .Frame7_title {
   /* 이제 나도 제페토 크리에이터. */
-
   position: absolute;
-  height: 52px;
   left: 293px;
   top: 85px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 40px;
-  line-height: 48px;
-  text-align: center;
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 
 .Frame7_p {
   /* 간단한 3가지 과정만 거치면 제페토 크리에이터가 될 수 있습니다. 궁금한 점이 있다면 사이트 상단 [지원]을 통해 문의해 주세요. */
-
   position: absolute;
-  height: 38px;
   left: 320px;
   top: 143px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.01em;
-
   color: #55555a;
 }
 
@@ -1087,27 +793,18 @@ ul {
   height: 39px;
   left: 491px;
   top: 209px;
-
   background: #5c46ff;
   border-radius: 19.5px;
 }
 
 .Frame7_rp {
   /* 시작하기 */
-
   position: absolute;
-  height: 18px;
   left: 513px;
   top: 220px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 18px;
-  text-align: center;
   letter-spacing: 0.01em;
-
   color: #ffffff;
 }
 
@@ -1117,7 +814,6 @@ ul {
   height: 195px;
   left: 141px;
   top: 301px;
-
   background: #f8f8fa;
   border-radius: 10px;
 }
@@ -1129,64 +825,40 @@ ul {
   border-radius: 27px;
   left: 263px;
   top: 340px;
-
   background: #f0f0f0;
 }
 
 .Frame7_n1 {
   /* 1 */
-
   position: absolute;
-  height: 18px;
   left: 273px;
   top: 345px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 0.01em;
-
   color: #000000;
 }
 
 .Frame7_t1 {
   /* 제페토 스튜디오 가입하기 */
-
   position: absolute;
-  height: 19px;
   left: 190px;
   top: 383px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 
 .Frame7_p1 {
   /* 제페토 계정만 있다면 누구나 무료로 가 입할 수 있습니다. */
-
   position: absolute;
-  height: 30px;
   left: 181px;
   top: 411px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
   text-align: center;
   letter-spacing: 0.01em;
-
   color: #55555a;
 }
 
@@ -1207,64 +879,40 @@ ul {
   border-radius: 27px;
   left: 527px;
   top: 340px;
-
   background: #f0f0f0;
 }
 
 .Frame7_n2 {
   /* 2 */
-
   position: absolute;
-  height: 18px;
   left: 536px;
   top: 345px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 0.01em;
-
   color: #000000;
 }
 
 .Frame7_t2 {
   /* 콘텐츠 제작 */
-
   position: absolute;
-  height: 19px;
   left: 501px;
   top: 383px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 
 .Frame7_p2 {
   /* 제작에 필요한 모든 가이드를 제공합니 다. 지금 바로 시작하세요. */
-
   position: absolute;
-  height: 30px;
   left: 445px;
   top: 411px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
   text-align: center;
   letter-spacing: 0.01em;
-
   color: #55555a;
 }
 
@@ -1285,71 +933,47 @@ ul {
   border-radius: 27px;
   left: 791px;
   top: 340px;
-
   background: #f0f0f0;
 }
 
 .Frame7_n3 {
+  /* 3 */
   position: absolute;
-  height: 18px;
   left: 800px;
   top: 345px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 18px;
-  text-align: center;
-  letter-spacing: 0.01em;
-
   color: #000000;
 }
 
 .Frame7_t3 {
   /* 콘텐츠 심사 */
-
   position: absolute;
-  height: 19px;
   left: 765px;
   top: 383px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 19px;
-  text-align: center;
   letter-spacing: 0.02em;
-
   color: #000000;
 }
 
 .Frame7_p3 {
   /* 제페토 유저들이 안전하고 즐겁게 즐길 수 있도록 심사를 거친 후 공개됩니다. 바 로 시작하세요. */
-
   position: absolute;
-  height: 45px;
   left: 700px;
   top: 411px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
   text-align: center;
   letter-spacing: 0.01em;
-
   color: #55555a;
 }
 
 .Frame8 {
   /* Frame 8 */
-
   position: relative;
   width: 100%;
-  /* width: 1082px; */
   height: 222px;
   margin: 0 auto;
 }
@@ -1386,7 +1010,6 @@ ul {
   height: 27px;
   left: 1117px;
   top: 30px;
-
   background: #f5f5f6;
   border-radius: 6px;
 }
@@ -1401,18 +1024,12 @@ ul {
 
 .Frame8_r1p {
   /* Google Play */
-
   position: absolute;
-  height: 20px;
   left: 1145px;
   top: 34px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 8px;
   line-height: 10px;
-
   color: #000000;
 }
 
@@ -1422,7 +1039,6 @@ ul {
   height: 27px;
   left: 1209px;
   top: 30px;
-
   background: #f5f5f6;
   border-radius: 6px;
 }
@@ -1437,27 +1053,19 @@ ul {
 
 .Frame8_r2p {
   /* App Store */
-
   position: absolute;
   left: 1240px;
   top: 39px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 600;
   font-size: 8px;
   line-height: 10px;
-
   color: #000000;
 }
 
-.Frame8_l {
+.Frame8_line_bottom {
   position: absolute;
   width: 100%;
-  height: 0px;
-  left: 0px;
   top: 150px;
-
   border: 1px solid #f9f9fb;
 }
 
@@ -1468,7 +1076,6 @@ ul {
   top: 169px;
   font-weight: 500;
   font-size: 8px;
-  line-height: 10px;
   color: #b2b4b5;
 }
 
@@ -1483,13 +1090,11 @@ ul {
 
 .Frame8_c1 {
   /* 이용약관 */
-
   position: absolute;
   left: 265px;
   top: 169px;
   font-weight: 500;
   font-size: 9px;
-  line-height: 11px;
   color: #b2b4b5;
 }
 
@@ -1504,17 +1109,11 @@ ul {
 
 .Frame8_c2 {
   /* 개인정보처리방침 */
-
   position: absolute;
   left: 317px;
   top: 169px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 9px;
-  line-height: 11px;
-
   color: #b2b4b5;
 }
 
@@ -1529,17 +1128,11 @@ ul {
 
 .Frame8_c3 {
   /* 문의하기 */
-
   position: absolute;
   left: 410px;
   top: 169px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 9px;
-  line-height: 11px;
-
   color: #b2b4b5;
 }
 
@@ -1549,40 +1142,26 @@ ul {
   height: 6px;
   left: 456px;
   top: 171px;
-
   background-color: #b2b4b5;
 }
 
 .Frame8_c4 {
   /* Credits */
-
   position: absolute;
-  height: 11px;
   left: 465px;
   top: 169px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 9px;
-  line-height: 11px;
-
   color: #b2b4b5;
 }
 
 .Frame8_lan {
   /* 한국어 ▼ */
-
   position: absolute;
   left: 1160px;
   top: 170px;
-
-  font-family: 'Inter';
-  font-style: normal;
   font-weight: 500;
   font-size: 9px;
-  line-height: 11px;
-
   color: #b2b4b5;
 }
 

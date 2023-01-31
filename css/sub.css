@@ -329,6 +329,179 @@ ul {
   left: 141px;
 }
 
+.Frame4 {
+  width: 1082px;
+  height: 900px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.Frame4_h2 {
+  position: absolute;
+  top: 86px;
+  left: 299px;
+  font-weight: 600;
+  font-size: 41px;
+}
+
+.Frame4_p {
+  position: absolute;
+  top: 148px;
+  left: 339px;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+
+.Frame4_slick {
+  width: 700px;
+  height: 510px;
+}
+
+.Frame4_ul {
+  position: absolute;
+  top: 237px;
+  left: 191px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.Frame4_li {
+  position: relative;
+  width: 337px;
+  height: 244px;
+  border-radius: 15px;
+  margin-right: 26px;
+  margin-bottom: 22.39px;
+}
+
+.Frame4_li_img {
+position: absolute;
+top: 15px;
+left: 23px;
+width: 20px;
+height: 20px;
+} 
+
+.Frame4_li_h3 {
+  position: absolute;
+  top: 46px;
+  left: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fefdff;
+}
+
+.Frame4_li_h4 {
+  position: absolute;
+  top: 68px;
+  left: 25px;
+  font-weight: 500;
+  font-size: 13px;
+  color: #fefdff;
+}
+
+.Frame4_li_p {
+  position: absolute;
+  top: 95px;
+  left: 25px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 19px;
+  color: #fcfefe;
+}
+
+.Frame4_li_View_Profile {
+  position: absolute;
+  top: 205px;
+  left: 25px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #c7e7ec;
+}
+
+.Frame4_li_image {
+  width: 337px;
+  height: 243.61px;
+}
+
+.Frame4_li:nth-child(1) {
+  background-color: #52b5c3;
+}
+
+.Frame4_li:nth-child(2) {
+  background-color: #8456c4;
+}
+
+.Frame4_li:nth-child(3) {
+  background-color: #d6af00;
+}
+
+.Frame4_li:nth-child(4) {
+  background-color: #4aa471;
+}
+
+.Frame5 {
+  width: 1082px;
+  height: 830px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #f8f8fa;
+}
+
+.Frame5_FAQ {
+  width: 746px;
+  height: 659px;
+  border-radius: 12px;
+  position: absolute;
+  top: 85px;
+  left: 168px;
+  background-color: #fff;
+  position: relative;
+}
+
+.Frame5_h2 {
+position: absolute;
+top: 41px;
+left: 337px;
+font-weight: 700;
+font-size: 36px;
+color: #000;
+}
+
+.Frame5_ul {
+ position: absolute;
+ top: 126px;
+ left: 75px; 
+}
+
+.Frame5_li {
+  display: flex;
+  width: 594px;
+}
+
+.Frame5_li_Q {
+  width: 24px;
+  height: 24px;
+  border-radius: 24px;
+  background-color: #f0f0f0;
+  text-align: center;
+  line-height: 24px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 9px;
+}
+
+.Frame5_li_p {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.Frame5_li_div {
+}
+
 .Frame8 {
   /* Frame 8 */
   position: relative;

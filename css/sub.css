@@ -332,52 +332,61 @@ ul {
 .Frame4 {
   width: 1082px;
   height: 900px;
-  position: relative;
   margin: 0 auto;
+  position: relative;
+}
+
+.prev {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 400px;
+  left: 114px;
+}
+
+.next {
+  width: 34px;
+  height: 34px;
+  position: absolute;
+  top: 400px;
+  right: 114px;
 }
 
 .Frame4_h2 {
-  position: absolute;
-  top: 86px;
-  left: 299px;
   font-weight: 600;
   font-size: 41px;
+  text-align: center;
+  margin-top: 86px;
 }
 
 .Frame4_p {
-  position: absolute;
-  top: 148px;
-  left: 339px;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
-}
-
-.Frame4_slick_all {
-  width: 700px;
-  height: 510px;
-}
-
-.Frame4_slick {
-  width: 700px;
-  height: 510px;
+  margin-top: 12px;
 }
 
 .Frame4_ul {
-  position: absolute;
-  top: 237px;
-  left: 191px;
   display: flex;
   flex-wrap: wrap;
+  margin-top: 51px;
+  margin-left: 191px;
 }
 
 .Frame4_li {
-  position: relative;
   width: 337px;
   height: 244px;
   border-radius: 15px;
   margin-right: 26px;
   margin-bottom: 22.39px;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  transition: all 0.3s;
+}
+
+.Frame4_li:hover {
+  color: #fff;
 }
 
 .Frame4_li_img {
@@ -386,6 +395,70 @@ ul {
   left: 23px;
   width: 20px;
   height: 20px;
+}
+
+.i1 {
+  background-image: url(../images/i1.webp);
+}
+
+.i1:hover {
+  background-image: url(../images/h1.webp);
+}
+
+.i2 {
+  background-image: url(../images/i2.webp);
+}
+
+.i2:hover {
+  background-image: url(../images/h2.webp);
+}
+
+.i3 {
+  background-image: url(../images/i3.webp);
+}
+
+.i3:hover {
+  background-image: url(../images/h3.webp);
+}
+
+.i4 {
+  background-image: url(../images/i4.webp);
+}
+
+.i4:hover {
+  background-image: url(../images/h4.webp);
+}
+
+.i25 {
+  background-image: url(../images/image\ 25.png);
+}
+
+.i25:hover {
+  background-image: url(../images/style25.webp);
+}
+
+.i28 {
+  background-image: url(../images/image\ 28.png);
+}
+
+.i28:hover {
+  background-image: url(../images/style28.webp);
+}
+
+.i29 {
+  background-image: url(../images/image\ 29.png);
+}
+
+.i29:hover {
+  background-image: url(../images/style29.webp);
+}
+
+.i30 {
+  background-image: url(../images/image\ 30.png);
+}
+
+.i30:hover {
+  background-image: url(../images/style30.webp);
 }
 
 .Frame4_li_h3 {
@@ -414,20 +487,20 @@ ul {
   font-size: 15px;
   line-height: 19px;
   color: #fcfefe;
+  z-index: 1;
 }
 
 .Frame4_li_View_Profile {
   position: absolute;
-  top: 205px;
+  bottom: 19.61px;
   left: 25px;
   font-weight: 500;
   font-size: 14px;
   color: #c7e7ec;
 }
 
-.Frame4_li_image {
-  width: 337px;
-  height: 243.61px;
+.Frame4_li_View_Profile:hover {
+  color: #fff;
 }
 
 .Frame4_li:nth-child(1) {

@@ -486,7 +486,7 @@ ul {
 }
 
 .i12 {
-  background-image: url(../images/i11.webp);
+  background-image: url(../images/i12.webp);
 }
 
 .i12:hover {
@@ -616,11 +616,15 @@ ul {
 }
 
 .Frame5 {
+  height: 830px;
+  background-color: #f8f8fa;
+}
+
+.Frame5_box {
   width: 1082px;
   height: 830px;
   position: relative;
   margin: 0 auto;
-  background-color: #f8f8fa;
 }
 
 .Frame5_FAQ {

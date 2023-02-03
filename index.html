@@ -113,14 +113,14 @@
           제페토의 대표 크리에이터를 바로 만나보세요.
         </div>
         <div class="bul">
-          <div class="Frame5_img1"></div>
-          <div class="Frame5_img2"></div>
-          <div class="Frame5_img3"></div>
-          <div class="Frame5_img4"></div>
-          <div class="Frame5_img5"></div>
+          <div class="item img1"></div>
+          <div class="item img2"></div>
+          <div class="item img3"></div>
+          <div class="item img4"></div>
+          <div class="item img5"></div>
         </div>
-        <div class="Frame5_t">코코</div>
-        <div class="Frame5_tp">@coco</div>
+        <!-- <div class="Frame5_t">코코</div>
+        <div class="Frame5_tp">@coco</div> -->
       </div>
       <div class="Frame6">
         <div class="Frame6_box">
@@ -251,10 +251,14 @@
         </div>
       </div>
     </div>
-    <script
-      type="text/javascript"
-      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
-    <script src="./js/app.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+      $('.bul').slick({
+        // autoplay: true,
+        centerMode: true,
+        // centerPadding: '60px',
+        slidesToShow: 4,
+      })
+    </script>
   </body>
 </html>

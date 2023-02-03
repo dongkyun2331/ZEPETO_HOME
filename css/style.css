@@ -579,29 +579,14 @@ ul {
 
 .Frame5 {
   /* Frame 5 */
-  position: relative;
   width: 1082px;
   height: 656px;
   margin: 0 auto;
   background: #ffffff;
 }
 
-.bul {
-  position: relative;
-  width: auto;
-  height: 276px;
-}
-
-.bli {
-  width: 220px;
-  height: 276px;
-}
-
 .Frame5_title {
   /* 3억 명을 사로잡을 크리에이터가 될 기회. */
-  position: absolute;
-  left: 349px;
-  top: 83px;
   font-weight: 600;
   font-size: 40px;
   line-height: 48px;
@@ -611,10 +596,6 @@ ul {
 }
 
 .Frame5_p {
-  /* 230만이 넘는 제페토 크리에이터가 전 세계 3억 유저에게 아이디어를 선보이고 있습니다. 제페토의 대표 크리에이터를 바로 만나보세요. */
-  position: absolute;
-  left: 240px;
-  top: 190px;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -623,79 +604,60 @@ ul {
   color: #55555a;
 }
 
-.bul {
-}
-
-.Frame5_img1 {
-  /* img1 */
+.bul .item {
   width: 170px;
   height: 170px;
-  border-radius: 170px;
-  background: url(../images/z5.png);
+}
+
+.bul .item.img1 {
+  background: url('../images/z5.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 170px;
+  width: 170px;
+  border-radius: 170px;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);
 }
-
-.Frame5_img2 {
-  /* img2 */
-  width: 170px;
-  height: 170px;
-  border-radius: 170px;
-  background: url(../images/z4.png);
+.bul .item.img2 {
+  background: url('../images/z5.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 170px;
+  width: 170px;
+  border-radius: 170px;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);
 }
-
-.Frame5_img3 {
-  /* img3 */
-  width: 170px;
-  height: 170px;
-  border-radius: 220px;
-  background: url(../images/z3.png);
+.bul .item.img3 {
+  background: url('../images/z5.png');
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 170px;
+  width: 170px;
+  border-radius: 170px;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);
 }
-
-.Frame5_img4 {
-  /* img4 */
-  width: 170px;
-  height: 170px;
-  border-radius: 170px;
-  background: url(../images/z2.png);
+.bul .item.img4 {
+  background: url('../images/z5.png');
   background-size: cover;
-  box-shadow: 0px 20px 60px 3px rgba(0, 0, 0, 0.1);
-}
-
-.Frame5_img5 {
-  /* img5 */
-  width: 170px;
+  background-repeat: no-repeat;
+  background-position: center;
   height: 170px;
+  width: 170px;
   border-radius: 170px;
-  background: url(../images/z1.png);
-  background-size: cover;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);
 }
-
-.Frame5_t {
-  /* 코코 */
-  position: absolute;
-  left: 520px;
-  top: 524px;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  color: #000000;
-}
-
-.Frame5_tp {
-  /* @coco */
-  position: absolute;
-  left: 516px;
-  top: 547px;
-  font-weight: 500;
-  font-size: 11px;
-  letter-spacing: 0.01em;
-  color: #55555a;
+.bul .item.img5 {
+  background: url('../images/z5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 170px;
+  width: 170px;
+  border-radius: 170px;
+  box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);
 }
 
 .Frame6 {

@@ -623,14 +623,14 @@ ul {
   color: #55555a;
 }
 
+.bul {
+}
+
 .Frame5_img1 {
   /* img1 */
-  position: absolute;
   width: 170px;
   height: 170px;
   border-radius: 170px;
-  left: 12px;
-  top: 309px;
   background: url(../images/z5.png);
   background-size: cover;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);
@@ -638,12 +638,9 @@ ul {
 
 .Frame5_img2 {
   /* img2 */
-  position: absolute;
   width: 170px;
   height: 170px;
   border-radius: 170px;
-  left: 232px;
-  top: 309px;
   background: url(../images/z4.png);
   background-size: cover;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);
@@ -651,12 +648,9 @@ ul {
 
 .Frame5_img3 {
   /* img3 */
-  position: absolute;
-  width: 220px;
-  height: 220px;
+  width: 170px;
+  height: 170px;
   border-radius: 220px;
-  left: 425px;
-  top: 284px;
   background: url(../images/z3.png);
   background-size: cover;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);
@@ -664,12 +658,9 @@ ul {
 
 .Frame5_img4 {
   /* img4 */
-  position: absolute;
   width: 170px;
   height: 170px;
   border-radius: 170px;
-  left: 668px;
-  top: 309px;
   background: url(../images/z2.png);
   background-size: cover;
   box-shadow: 0px 20px 60px 3px rgba(0, 0, 0, 0.1);
@@ -677,12 +668,9 @@ ul {
 
 .Frame5_img5 {
   /* img5 */
-  position: absolute;
   width: 170px;
   height: 170px;
   border-radius: 170px;
-  left: 888px;
-  top: 309px;
   background: url(../images/z1.png);
   background-size: cover;
   box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.1);

@@ -607,19 +607,17 @@ ul {
 .bul {
   width: 1046px;
   margin: 0 auto;
-  background-color: red;
 }
 
 .bul .item {
   height: 170px;
-  margin-top: 100px;
+  margin-top: 170px;
 }
 
 .bul .item > img {
   width: 100%;
   transform: scale(2);
   padding: 0 50px;
-  /* margin: 0 50px; */
 }
 
 .slick-center {

@@ -593,6 +593,7 @@ ul {
   text-align: center;
   letter-spacing: 0.02em;
   color: #000000;
+  margin-top: 83px;
 }
 
 .Frame5_p {
@@ -602,6 +603,7 @@ ul {
   text-align: center;
   letter-spacing: 0.01em;
   color: #55555a;
+  margin-top: 11px;
 }
 
 .bul {
@@ -616,12 +618,26 @@ ul {
 
 .bul .item > img {
   width: 100%;
-  transform: scale(2);
-  padding: 0 50px;
+  transform: scale(4);
+  padding: 0 85px;
+}
+
+.name {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.tag {
+  text-align: center;
+  font-weight: 500;
+  font-size: 11px;
+  color: #55555a;
 }
 
 .slick-center {
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 
 .Frame6 {

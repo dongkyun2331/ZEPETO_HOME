@@ -193,10 +193,6 @@ ul {
   position: relative;
 }
 
-.Frame2 .gif {
-  width: 100%;
-}
-
 .Frame2_title {
   /* 상상하는 모든 것. 제페토 스튜디오에서. */
   position: absolute;
@@ -583,6 +579,7 @@ ul {
   height: 656px;
   margin: 0 auto;
   background: #ffffff;
+  position: relative;
 }
 
 .Frame5_title {
@@ -606,20 +603,35 @@ ul {
   margin-top: 11px;
 }
 
-.bul {
-  width: 1046px;
+.bul_box {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  overflow: hidden;
+  width: 1000px;
+  height: 400px;
   margin: 0 auto;
+  background-color: #7d6aff;
 }
 
-.bul .item {
-  height: 170px;
-  margin-top: 170px;
+.bul {
+  margin: 0 auto;
+  margin: 100px 0;
 }
 
 .bul .item > img {
   width: 100%;
-  transform: scale(4);
-  padding: 0 85px;
+  transform: scale(0.8);
+  transition: 0.5s;
+  /* margin: 0 40px; */
+}
+
+.slick-list {
+  padding: 0 !important;
+}
+
+.name_tag {
+  display: none;
 }
 
 .name {
@@ -636,8 +648,13 @@ ul {
   color: #55555a;
 }
 
-.slick-center {
-  transform: scale(1.3);
+.bul .item.slick-center .name_tag {
+  display: initial;
+  transition: 0.3s;
+}
+
+.bul .item.slick-center img {
+  transform: scale(1);
 }
 
 .Frame6 {
@@ -682,6 +699,16 @@ ul {
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
+  -webkit-mask-image: -webkit-radial-gradient(white, black);
+}
+
+video {
+  /* width: 100%;
+  height: auto; */
+  /* -webkit-backface-visibility: hidden; */
+  /* object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip; */
 }
 
 .Frame7 {

@@ -41,7 +41,13 @@
         <img src="./images/Vector_2.png" alt="" class="Vector_3" />
       </div>
       <div class="Frame2">
-        <img src="./images/gif.gif" alt="" class="gif" />
+        <video
+          src="https://studio.zepeto.me/video/bg_home_video.mp4"
+          autoplay
+          playsinline
+          loop
+          width="100%"
+        ></video>
         <div class="Frame2_title">
           상상하는 모든 것.<br />
           제페토 스튜디오에서.
@@ -112,56 +118,77 @@
           선보이고 있습니다.<br />
           제페토의 대표 크리에이터를 바로 만나보세요.
         </div>
+        <div class="bul_right"></div>
         <div class="bul">
           <div class="item">
             <img src="./images/img_slider_01.png" alt="" />
-            <div class="name">Lenge</div>
-            <div class="tag">@lenge</div>
+            <div class="name_tag">
+              <div class="name">Lenge</div>
+              <div class="tag">@lenge</div>
+            </div>
           </div>
           <div class="item">
             <img src="./images/img_slider_02.png" alt="" />
-            <div class="name">아티 ARTY</div>
-            <div class="tag">@arty_</div>
+            <div class="name_tag">
+              <div class="name">아티 ARTY</div>
+              <div class="tag">@arty_</div>
+            </div>
           </div>
           <div class="item">
             <img src="./images/img_slider_03.png" alt="" />
-            <div class="name">하리</div>
-            <div class="tag">@hari</div>
+            <div class="name_tag">
+              <div class="name">하리</div>
+              <div class="tag">@hari</div>
+            </div>
           </div>
           <div class="item">
             <img src="./images/img_slider_04.png" alt="" />
-            <div class="name">CLOUD</div>
-            <div class="tag">@cloud</div>
+            <div class="name_tag">
+              <div class="name">CLOUD</div>
+              <div class="tag">@cloud</div>
+            </div>
           </div>
           <div class="item">
             <img src="./images/img_slider_05.png" alt="" />
-            <div class="name">코코</div>
-            <div class="tag">@coco</div>
+            <div class="name_tag">
+              <div class="name">코코</div>
+              <div class="tag">@coco</div>
+            </div>
           </div>
           <div class="item">
             <img src="./images/img_slider_01.png" alt="" />
-            <div class="name">Lenge</div>
-            <div class="tag">@lenge</div>
+            <div class="name_tag">
+              <div class="name">Lenge</div>
+              <div class="tag">@lenge</div>
+            </div>
           </div>
           <div class="item">
             <img src="./images/img_slider_02.png" alt="" />
-            <div class="name">아티 ARTY</div>
-            <div class="tag">@arty_</div>
+            <div class="name_tag">
+              <div class="name">아티 ARTY</div>
+              <div class="tag">@arty_</div>
+            </div>
           </div>
           <div class="item">
             <img src="./images/img_slider_03.png" alt="" />
-            <div class="name">하리</div>
-            <div class="tag">@hari</div>
+            <div class="name_tag">
+              <div class="name">하리</div>
+              <div class="tag">@hari</div>
+            </div>
           </div>
           <div class="item">
             <img src="./images/img_slider_04.png" alt="" />
-            <div class="name">CLOUD</div>
-            <div class="tag">@cloud</div>
+            <div class="name_tag">
+              <div class="name">CLOUD</div>
+              <div class="tag">@cloud</div>
+            </div>
           </div>
           <div class="item">
             <img src="./images/img_slider_05.png" alt="" />
-            <div class="name">코코</div>
-            <div class="tag">@coco</div>
+            <div class="name_tag">
+              <div class="name">코코</div>
+              <div class="tag">@coco</div>
+            </div>
           </div>
         </div>
       </div>
@@ -299,7 +326,8 @@
       $('.bul').slick({
         autoplay: true,
         centerMode: true,
-        centerPadding: '50px',
+        adaptiveHeight: true,
+        // centerPadding: '50px',
         draggable: true,
         slidesToShow: 5,
       })

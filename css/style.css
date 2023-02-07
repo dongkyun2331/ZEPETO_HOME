@@ -189,59 +189,57 @@ ul {
 }
 
 .Frame2 {
-  /* Frame2 */
+  overflow: hidden;
+  margin: 0 auto;
   position: relative;
+}
+
+.Frame2_text {
+  width: 1082px;
+  height: 548px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  z-index: 1;
 }
 
 .Frame2_title {
   /* 상상하는 모든 것. 제페토 스튜디오에서. */
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
   font-weight: 600;
   font-size: 46px;
   text-align: center;
-  color: #ffffff;
 }
 
-.Frame2 .Rectangle4 {
-  /* Rectangle 4 */
-  position: absolute;
+.Frame2_text > .btn-link {
   width: 106px;
   height: 46px;
-  left: 50%;
-  top: 60%;
-  transform: translate(-50%, -50%);
-  background: #ffffff;
+  background-color: #ffffff;
   border-radius: 23px;
-}
-
-.Frame2 .start {
-  /* 시작하기 */
-  position: absolute;
-  left: 50%;
-  top: 60%;
-  transform: translate(-50%, -50%);
-  font-weight: 600;
-  font-size: 16px;
   text-align: center;
   color: #7d6aff;
+  font-weight: 600;
+  font-size: 16px;
+  display: block;
+  line-height: 46px;
 }
 
 .Frame3 {
   /* Frame 3 */
   width: 1082px;
   height: 809px;
-  margin: 0 auto;
   background: #ffffff;
-  position: relative;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .Frame3_title {
   /* 크리에이터를 위한 제페토. */
   position: absolute;
-  left: 312px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 81px;
   font-weight: 600;
   font-size: 40px;
@@ -700,15 +698,6 @@ ul {
   transform: translateX(-50%);
   bottom: 0;
   -webkit-mask-image: -webkit-radial-gradient(white, black);
-}
-
-video {
-  /* width: 100%;
-  height: auto; */
-  /* -webkit-backface-visibility: hidden; */
-  /* object-fit: contain;
-  overflow-clip-margin: content-box;
-  overflow: clip; */
 }
 
 .Frame7 {

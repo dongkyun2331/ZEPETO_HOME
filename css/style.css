@@ -719,7 +719,9 @@ ul {
   left: 50%;
   transform: translateX(-50%);
   bottom: 0;
-  -webkit-mask-image: -webkit-radial-gradient(white, black);
+  /* -webkit-mask-image: -webkit-radial-gradient(white, black); */
+  /* Create a mask with a gradient that goes from white to black */
+  mask-image: radial-gradient(white, black);
 }
 
 .Frame7 {

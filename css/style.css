@@ -172,8 +172,8 @@ ul {
 
 .Frame2 {
   position: relative;
-  height: 810px;
-  /* overflow: hidden; */
+  aspect-ratio: 16/9;
+  width: 100%;
 }
 
 .Frame2_video {
@@ -185,15 +185,19 @@ ul {
 }
 
 .Frame2_inner {
-  position: absolute;
   aspect-ratio: 16/9;
   width: 100%;
+  position: relative;
 }
 
 .Frame2_content {
+  position: absolute;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 650.44px;
-  background-color: #000;
-  height: 289px;
+  height: 180px;
 }
 
 .Frame2_title {
@@ -206,6 +210,10 @@ ul {
 }
 
 .btn-link {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   height: 46px;
   line-height: 46px;
   padding: 0 20px;
@@ -223,9 +231,8 @@ ul {
   width: 1082px;
   height: 809px;
   background: #ffffff;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+  position: relative;
+  margin: 0 auto;
 }
 
 .Frame3_title {
@@ -243,7 +250,9 @@ ul {
 .Frame3_p {
   /* 제페토 크리에이터는 제페토 세상의 모든 것을 직접 만들 수 있습니다. 전 세계 3억 유저에게 당신의 아이디어를 보여주세요! */
   position: absolute;
-  left: 308px;
+  left: 50%;
+  transform: translateX(-50%);
+  /* left: 308px; */
   top: 142px;
   font-weight: 500;
   font-size: 16px;
@@ -256,10 +265,12 @@ ul {
 .Frame3_img {
   /* image 2 */
   position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  /* left: 138px; */
+  top: 236px;
   width: 800px;
   height: 405.47px;
-  left: 138px;
-  top: 236px;
 }
 
 .Frame3_t1 {
@@ -277,9 +288,9 @@ ul {
 .Frame3_p1 {
   /* 스튜디오 아이템 판매량 */
   position: absolute;
-  height: 15px;
   left: 282px;
   top: 713px;
+  height: 15px;
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.03em;

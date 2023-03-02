@@ -75,15 +75,6 @@ ul {
   color: #fff;
 }
 
-.Frame1 .Vector {
-  /* Vector */
-  position: absolute;
-  left: 209px;
-  top: 30px;
-  width: 6px;
-  height: 3px;
-}
-
 .Frame1 .creator_program {
   /* 크리에이터 프로그램 */
   position: absolute;
@@ -124,15 +115,6 @@ ul {
 
 .Frame1 .guide:hover {
   color: #fff;
-}
-
-.Frame1 .Vector_2 {
-  /* Vector */
-  position: absolute;
-  left: 471px;
-  top: 30px;
-  width: 6px;
-  height: 3px;
 }
 
 .Frame1 .new {
@@ -208,7 +190,7 @@ ul {
   width: 100%;
 }
 
-.Frame2_inner > .content {
+.Frame2_content {
   width: 650.44px;
   background-color: #000;
   height: 289px;

@@ -27,7 +27,7 @@ ul {
   width: 100%;
   height: 54px;
   background: #000008;
-  z-index: 1;
+  z-index: 10;
 }
 
 .Frame1 .ZEPETO {
@@ -189,9 +189,9 @@ ul {
 }
 
 .Frame2 {
-  overflow: hidden;
-  height: 548px;
   position: relative;
+  height: 810px;
+  /* overflow: hidden; */
 }
 
 .Frame2_video {
@@ -200,29 +200,18 @@ ul {
   right: 0;
   left: 0;
   bottom: 0;
-  z-index: 1;
-}
-
-.Frame2_video > video {
-  width: 100%;
-  height: 100%;
 }
 
 .Frame2_inner {
-  height: 100%;
-  max-width: 1082px;
-  position: relative;
-  margin: 0 auto;
-  text-align: center;
+  position: absolute;
+  aspect-ratio: 16/9;
+  width: 100%;
 }
 
-.Frame2_text {
-  position: relative;
-  display: inline-block;
-  max-width: 880px;
-  vertical-align: middle;
-  color: #ffffff;
-  z-index: 1;
+.Frame2_inner > .content {
+  width: 650.44px;
+  background-color: #000;
+  height: 289px;
 }
 
 .Frame2_title {
@@ -230,11 +219,11 @@ ul {
   font-weight: 600;
   font-size: 46px;
   line-height: 55.67px;
-  white-space: pre-wrap;
+  color: #fff;
+  text-align: center;
 }
 
-.Frame2_text > .btn-link {
-  margin-top: 21px;
+.btn-link {
   height: 46px;
   line-height: 46px;
   padding: 0 20px;
@@ -945,6 +934,7 @@ ul {
   /* Frame 8 */
   width: 100%;
   height: 222px;
+  position: relative;
 }
 
 .Frame8_line_top {

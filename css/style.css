@@ -207,6 +207,37 @@ ul {
   line-height: 55.67px;
   color: #fff;
   text-align: center;
+  /* opacity: 0;
+  transition: opacity 0.7s; */
+  /* opacity: 0;
+  animation: appear 1s ease-in-out forwards; */
+  opacity: 0;
+  animation: move-up 1s ease-in-out forwards;
+}
+
+/* #Frame2_title {
+  opacity: 0;
+  animation: appear 5s ease-in-out forwards;
+} */
+
+/* @keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+} */
+
+@keyframes move-up {
+  0% {
+    top: 100px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }
 }
 
 .btn-link {
@@ -224,6 +255,8 @@ ul {
   color: #7d6aff;
   font-weight: 600;
   display: inline-block;
+  /* opacity: 0;
+  animation: appear 1s ease-in-out forwards; */
 }
 
 .Frame3 {

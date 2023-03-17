@@ -12,11 +12,15 @@ ul {
   list-style: none;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .Desktop-1 {
   /* Desktop - 1 */
   position: relative;
   background: #ffffff;
-  font-family: 'Inter';
+  font-family: "Inter";
   font-style: normal;
 }
 
@@ -178,10 +182,10 @@ ul {
 
 .Frame2_video {
   position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
 }
 
 .Frame2_inner {
@@ -207,37 +211,6 @@ ul {
   line-height: 55.67px;
   color: #fff;
   text-align: center;
-  /* opacity: 0;
-  transition: opacity 0.7s; */
-  /* opacity: 0;
-  animation: appear 1s ease-in-out forwards; */
-  opacity: 0;
-  animation: move-up 1s ease-in-out forwards;
-}
-
-/* #Frame2_title {
-  opacity: 0;
-  animation: appear 5s ease-in-out forwards;
-} */
-
-/* @keyframes appear {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
-
-@keyframes move-up {
-  0% {
-    top: 100px;
-    opacity: 0;
-  }
-  100% {
-    top: 0;
-    opacity: 1;
-  }
 }
 
 .btn-link {
@@ -247,7 +220,8 @@ ul {
   transform: translateX(-50%);
   height: 46px;
   line-height: 46px;
-  padding: 0 20px;
+  width: 106px;
+  height: 46px;
   border-radius: 23px;
   font-size: 16px;
   background-color: #ffffff;
@@ -255,8 +229,6 @@ ul {
   color: #7d6aff;
   font-weight: 600;
   display: inline-block;
-  /* opacity: 0;
-  animation: appear 1s ease-in-out forwards; */
 }
 
 .Frame3 {
@@ -300,17 +272,21 @@ ul {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  /* left: 138px; */
   top: 236px;
   width: 800px;
   height: 405.47px;
 }
 
-.Frame3_t1 {
-  /* 6800만 */
+.Frame3_ul {
+  display: flex;
   position: absolute;
-  left: 311px;
   top: 683px;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 86px;
+}
+
+.Frame3_t1 {
   font-weight: 600;
   font-size: 17px;
   text-align: center;
@@ -319,55 +295,7 @@ ul {
 }
 
 .Frame3_p1 {
-  /* 스튜디오 아이템 판매량 */
-  position: absolute;
-  left: 282px;
-  top: 713px;
   height: 15px;
-  font-weight: 500;
-  font-size: 12px;
-  letter-spacing: 0.03em;
-  color: #646469;
-}
-
-.Frame3_t2 {
-  /* 230만 */
-  position: absolute;
-  left: 524px;
-  top: 683px;
-  font-weight: 600;
-  font-size: 17px;
-  letter-spacing: 0.01em;
-  color: #000000;
-}
-
-.Frame3_p2 {
-  /* 스튜디오 크리에이터 수 */
-  position: absolute;
-  left: 489px;
-  top: 713px;
-  font-weight: 500;
-  font-size: 12px;
-  letter-spacing: 0.03em;
-  color: #646469;
-}
-
-.Frame3_t3 {
-  /* 3억 */
-  position: absolute;
-  left: 742px;
-  top: 683px;
-  font-weight: 600;
-  font-size: 17px;
-  letter-spacing: 0.01em;
-  color: #000000;
-}
-
-.Frame3_p3 {
-  /* 제페토 가입자 수 */
-  position: absolute;
-  left: 713px;
-  top: 713px;
   font-weight: 500;
   font-size: 12px;
   letter-spacing: 0.03em;
@@ -412,200 +340,56 @@ ul {
   color: #55555a;
 }
 
-.Frame4_r1 {
-  /* r1 */
+.Frame4_box > ul {
   position: absolute;
-  width: 216px;
-  height: 282px;
+  top: 236px;
   left: 192px;
-  top: 236px;
-  background: #ffffff;
-  border-radius: 10px;
+  gap: 25px;
+  display: flex;
 }
 
-.Frame4_icon1 {
-  /* icon1 */
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  left: 270px;
-  top: 264px;
-}
-
-.Frame4_t1 {
-  /* 아이템 */
-  position: absolute;
-  left: 272px;
-  top: 349px;
-  font-weight: 600;
-  font-size: 20px;
-  letter-spacing: 0.01em;
-  color: #000000;
-}
-
-.Frame4_p1 {
-  /* 패션 아이템을 만들고 수익을 창출하세요. */
-  position: absolute;
-  left: 245px;
-  top: 381px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #646469;
-}
-
-.Frame4_re1 {
-  position: absolute;
-  width: 136px;
-  height: 33px;
-  left: 232px;
-  top: 463px;
-  background: #5c46ff;
-  border-radius: 16.5px;
-}
-
-.Frame4_rp1 {
-  /* 더 알아보기 */
-  position: absolute;
-  left: 269px;
-  top: 472px;
-  font-weight: 500;
-  font-size: 12px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-
-.Frame4_r2 {
-  /* r2 */
-  position: absolute;
+.Frame4_box > ul > li {
   width: 216px;
   height: 282px;
-  left: 433px;
-  top: 236px;
-  background: #ffffff;
+  background-color: #fff;
   border-radius: 10px;
+  text-align: center;
+  position: relative;
 }
 
-.Frame4_icon2 {
-  /* icon2 */
-  position: absolute;
+.Frame4_box > ul > li > img {
   width: 60px;
   height: 60px;
-  left: 511px;
-  top: 264px;
+  margin-top: 28px;
 }
 
-.Frame4_t2 {
-  /* 월드 */
-  position: absolute;
-  left: 523px;
-  top: 349px;
-  font-weight: 600;
+.Frame4_box > ul > li > h2 {
+  margin-top: 25px;
   font-size: 20px;
-  letter-spacing: 0.01em;
-  color: #000000;
+  color: #000;
+  font-weight: 600;
 }
 
-.Frame4_p2 {
-  /* 제페토 세상에 내 아이디어가 담긴 월드를 만드세요. */
-  position: absolute;
-  left: 492px;
-  top: 381px;
-  font-weight: 500;
+.Frame4_box > ul > li > p {
+  margin-top: 8px;
   font-size: 12px;
-  line-height: 15px;
-  text-align: center;
-  letter-spacing: 0.03em;
+  font-weight: 500;
   color: #646469;
 }
 
-.Frame4_re2 {
+.Frame4_box > ul > li > button {
   position: absolute;
+  bottom: 22px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 136px;
   height: 33px;
-  left: 473px;
-  top: 463px;
-  background: #5c46ff;
+  background-color: #5c46ff;
   border-radius: 16.5px;
-}
-
-.Frame4_rp2 {
-  /* 더 알아보기 */
-  position: absolute;
-  left: 510px;
-  top: 472px;
   font-weight: 500;
   font-size: 12px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-
-.Frame4_r3 {
-  /* r3 */
-  position: absolute;
-  width: 216px;
-  height: 282px;
-  left: 674px;
-  top: 236px;
-  background: #ffffff;
-  border-radius: 10px;
-}
-
-.Frame4_icon3 {
-  /* icon3 */
-  position: absolute;
-  width: 60px;
-  height: 60px;
-  left: 752px;
-  top: 264px;
-}
-
-.Frame4_t3 {
-  /* 라이브 */
-  position: absolute;
-  height: 24px;
-  left: 754px;
-  top: 349px;
-  font-weight: 600;
-  font-size: 20px;
-  letter-spacing: 0.01em;
-  color: #000000;
-}
-
-.Frame4_p3 {
-  /* 전 세계 유저들과 실시간 방송하세요. */
-  position: absolute;
-  left: 733px;
-  top: 381px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #646469;
-}
-
-.Frame4_re3 {
-  position: absolute;
-  width: 136px;
-  height: 33px;
-  left: 714px;
-  top: 463px;
-  background: #5c46ff;
-  border-radius: 16.5px;
-}
-
-.Frame4_rp3 {
-  /* 더 알아보기 */
-  position: absolute;
-  left: 751px;
-  top: 472px;
-  font-weight: 500;
-  font-size: 12px;
-  letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
+  border: none;
 }
 
 .Frame5 {
@@ -658,7 +442,6 @@ ul {
   width: 100%;
   transform: scale(0.8);
   transition: 0.5s;
-  /* margin: 0 40px; */
 }
 
 .slick-list {
@@ -732,12 +515,9 @@ ul {
 .Frame6_video {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
   bottom: 0;
+  transform: translateX(-50%);
   -webkit-mask-image: -webkit-radial-gradient(white, black);
-  /* Create a circular mask with a gradient that goes from white to black */
-  /* mask-image: radial-gradient(circle, white, black); */
-  /* mask: radial-gradient(circle, white 0%, black 100%); */
 }
 
 .Frame7 {
@@ -773,7 +553,7 @@ ul {
   color: #55555a;
 }
 
-.Frame7_r {
+.Frame7 > button {
   position: absolute;
   width: 100px;
   height: 39px;
@@ -781,17 +561,8 @@ ul {
   top: 209px;
   background: #5c46ff;
   border-radius: 19.5px;
-}
-
-.Frame7_rp {
-  /* 시작하기 */
-  position: absolute;
-  left: 513px;
-  top: 220px;
-  font-weight: 500;
-  font-size: 15px;
-  letter-spacing: 0.01em;
-  color: #ffffff;
+  border: none;
+  color: #fff;
 }
 
 .Frame7_rg {
@@ -802,44 +573,40 @@ ul {
   top: 301px;
   background: #f8f8fa;
   border-radius: 10px;
+  display: flex;
+  position: relative;
 }
 
-.Frame7_e1 {
-  position: absolute;
+.Frame7_rg > li {
+  width: 266.6px;
+  height: 195px;
+  text-align: center;
+}
+
+.Frame7_rg > li > .number {
+  margin-top: 39px;
+  margin-left: 122px;
   width: 27px;
   height: 27px;
   border-radius: 27px;
-  left: 263px;
-  top: 340px;
   background: #f0f0f0;
-}
-
-.Frame7_n1 {
-  /* 1 */
-  position: absolute;
-  left: 273px;
-  top: 345px;
   font-weight: 500;
   font-size: 15px;
   color: #000000;
+  text-align: center;
+  line-height: 27px;
 }
 
-.Frame7_t1 {
-  /* 제페토 스튜디오 가입하기 */
-  position: absolute;
-  left: 190px;
-  top: 383px;
+.Frame7_rg > li > h2 {
+  margin-top: 20px;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 0.02em;
   color: #000000;
 }
 
-.Frame7_p1 {
-  /* 제페토 계정만 있다면 누구나 무료로 가 입할 수 있습니다. */
-  position: absolute;
-  left: 181px;
-  top: 411px;
+.Frame7_rg > li > p {
+  margin-top: 9px;
   font-weight: 500;
   font-size: 12px;
   line-height: 15px;
@@ -850,110 +617,18 @@ ul {
 
 .Frame7_v1 {
   position: absolute;
-  left: 37.62%;
-  right: 61.65%;
-  top: 404px;
-  bottom: 27.73%;
+  top: 103px;
+  left: 266px;
   width: 8px;
   height: 13px;
-}
-
-.Frame7_e2 {
-  position: absolute;
-  width: 27px;
-  height: 27px;
-  border-radius: 27px;
-  left: 527px;
-  top: 340px;
-  background: #f0f0f0;
-}
-
-.Frame7_n2 {
-  /* 2 */
-  position: absolute;
-  left: 536px;
-  top: 345px;
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
-
-.Frame7_t2 {
-  /* 콘텐츠 제작 */
-  position: absolute;
-  left: 501px;
-  top: 383px;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  color: #000000;
-}
-
-.Frame7_p2 {
-  /* 제작에 필요한 모든 가이드를 제공합니 다. 지금 바로 시작하세요. */
-  position: absolute;
-  left: 445px;
-  top: 411px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-  text-align: center;
-  letter-spacing: 0.01em;
-  color: #55555a;
 }
 
 .Frame7_v2 {
   position: absolute;
-  left: 62.01%;
-  right: 37.25%;
-  top: 70.02%;
-  bottom: 27.73%;
+  top: 103px;
+  left: 530px;
   width: 8px;
   height: 13px;
-}
-
-.Frame7_e3 {
-  position: absolute;
-  width: 27px;
-  height: 27px;
-  border-radius: 27px;
-  left: 791px;
-  top: 340px;
-  background: #f0f0f0;
-}
-
-.Frame7_n3 {
-  /* 3 */
-  position: absolute;
-  left: 800px;
-  top: 345px;
-  font-weight: 500;
-  font-size: 15px;
-  color: #000000;
-}
-
-.Frame7_t3 {
-  /* 콘텐츠 심사 */
-  position: absolute;
-  left: 765px;
-  top: 383px;
-  font-weight: 600;
-  font-size: 16px;
-  letter-spacing: 0.02em;
-  color: #000000;
-}
-
-.Frame7_p3 {
-  /* 제페토 유저들이 안전하고 즐겁게 즐길 수 있도록 심사를 거친 후 공개됩니다. 바 로 시작하세요. */
-  position: absolute;
-  left: 700px;
-  top: 411px;
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-  text-align: center;
-  letter-spacing: 0.01em;
-  color: #55555a;
 }
 
 .Frame8 {
@@ -1070,7 +745,7 @@ ul {
 }
 
 .Frame8_corp > li::after {
-  content: '';
+  content: "";
   display: inline-block;
   margin: 0 7px;
   width: 1px;

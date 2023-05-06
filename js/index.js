@@ -7,6 +7,8 @@ $(".bul").slick({
   pauseOnHover: false,
 });
 
+document.getElementById("video").play();
+
 // document.body.style.zoom = '150%'
 ScrollReveal().reveal(".Frame2_title", {
   duration: 1000,
